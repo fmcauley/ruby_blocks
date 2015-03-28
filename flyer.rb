@@ -22,6 +22,7 @@ flyers << Flyer.new("Shemp", "shemp@example.com",2000)
 
 most_miles = flyers.select{ |f| f.miles_flown >= 3000}
 puts "Most Miles Flown"
+
 puts most_miles
 
 less_miles = flyers.reject{ |f| f.miles_flown >= 3000}
